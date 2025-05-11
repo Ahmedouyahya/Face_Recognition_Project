@@ -8,7 +8,7 @@ A simple, real-time face recognition system in Python that:
 
 ---
 
-## 🚀 Features
+##  Features
 
 * **Training**: Scan `known_faces/` subdirectories, extract 128-D face embeddings, and cache to `models/encodings.pkl`.
 * **Recognition**: Detect and identify faces from your webcam in real time.
@@ -17,7 +17,7 @@ A simple, real-time face recognition system in Python that:
 
 ---
 
-## 📦 Prerequisites
+##  Prerequisites
 
 * **Python 3.12**
 * **Webcam** for real-time recognition
@@ -25,7 +25,7 @@ A simple, real-time face recognition system in Python that:
 
 ---
 
-## ⚙️ Installation
+##  Installation
 
 1. **Clone the repo**
 
