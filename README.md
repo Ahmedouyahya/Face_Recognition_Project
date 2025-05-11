@@ -47,18 +47,14 @@ A simple, real-time face recognition system in Python that:
 3. **Install dependencies**
 
    ```bash
-   pip install --upgrade pip setuptools wheel
-   pip install face_recognition             # The world’s simplest face recognition API
-   pip install opencv-python                # OpenCV for video I/O & drawing
-   pip install pillow                       # Image loading & conversion
-   pip install numpy                        # Numerical operations
+   pip install -r requirements.txt
    ```
 
 > If `dlib` fails to build on Windows, download a matching wheel from
 > [https://www.lfd.uci.edu/\~gohlke/pythonlibs/](https://www.lfd.uci.edu/~gohlke/pythonlibs/) and install with:
 >
 > ```bash
-> pip install path\to\dlib-19.xx.x-cpxx-cpxx-win_amd64.whl
+> python -m pip install dlib-19.24.99-cp312-cp312-win_amd64.whl
 > ```
 
 ---
