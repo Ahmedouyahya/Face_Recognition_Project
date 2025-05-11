@@ -63,7 +63,7 @@ A simple, real-time face recognition system in Python that:
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 face_recognition_project/
@@ -82,7 +82,7 @@ face_recognition_project/
 
 ---
 
-## ▶️ Usage
+##  Usage
 
 ### 1. Train Encodings
 
@@ -106,12 +106,12 @@ python app.py
 * **Check** `logs/recognition.log` for entries like:
 
   ```
-  2025-05-10 18:32:28 - Ahmedou recognized
+  2025-05-10 18:32:28 - AhmedouYahye recognized
   ```
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
 1. Fork the repo
 2. Create a branch (`git checkout -b feature-name`)
@@ -121,13 +121,13 @@ python app.py
 
 ---
 
-## 📝 License
+##  License
 
 This project is licensed under the **MIT License**.
 
 ---
 
-## 📚 References
+##  References
 
 * **face\_recognition** GitHub: The world’s simplest facial recognition API for Python and the command line
 * **opencv-python** PyPI: Pre-built OpenCV packages for Python
