@@ -1,0 +1,16 @@
+
+# Face recognition core libraries
+face-recognition==1.3.0                      # 99.38% accuracy on LFW :contentReference[oaicite:0]{index=0}
+face_recognition_models @ git+https://github.com/ageitgey/face_recognition_models
+
+# Image I/O and manipulation
+opencv-python==4.11.0.86                     # OpenCV Python bindings 
+Pillow==11.2.1                               # Robust image loading & conversion 
+
+# Numerical & data handling
+numpy==1.26.4                                # Use ≤1.26.x to avoid NumPy 2.0/dlib breakage :contentReference[oaicite:3]{index=3}
+pandas==2.2.3                                # DataFrame support for logging :contentReference[oaicite:4]{index=4}
+
+# Build tools & C++ bindings
+cmake>=3.27.0                                # Required to build dlib :contentReference[oaicite:5]{index=5}
+dlib==19.24.8                                # Face-encoding C++ backend (use prebuilt wheel on Windows)
